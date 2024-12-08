@@ -40,7 +40,7 @@ export function Login() {
                     <input type="text" onChange={(d)=>{setLogin({...login,name:d.target.value})}} className="input" placeholder="username"/>
                 </div>
                 <div className="inputfields">
-                    <label htmlFor="password">PASSWORD</label>
+                    <label htmlFor="password">PassWORD</label>
                     <input type="password"  onChange={(d)=>{setLogin({...login,password:d.target.value})}} className="input" placeholder="password"/>
                 </div>
                 <div className="btncontainer">
